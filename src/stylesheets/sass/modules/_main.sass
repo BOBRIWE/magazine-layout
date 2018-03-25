@@ -1,0 +1,87 @@
+.main
+	box-sizing: border-box
+	position: relative
+	z-index: 10
+	width: 100%
+	max-width: 1561px
+	margin: 0 auto
+	&-head
+		width: 100%
+		max-width: 1561px
+		height: 1131px
+		position: relative
+		background: no-repeat url(../images/header/base.png) center center
+		&-bottom
+			background: no-repeat url(../images/footer/bg.png) center center
+			margin: 0 auto
+			right: 0
+			left: 0
+	&-hl
+		width: 100%
+		position: absolute
+		top: 283px
+		border-top: 1px solid #ffffff
+		opacity: .2
+	&-vl
+		height: 1696px
+		position: absolute
+		left: 36px
+		top: 0
+		border-left: 1px solid #ffffff
+		opacity: .2
+	&-logo
+		position: absolute
+		top: 218px
+		left: -29px
+		//z-index: 1
+		font: italic 700 17px 'Merriweather', arial
+		color: #ffffff
+		line-height: 66px
+		vertical-align: middle
+		text-align: center
+		width: 66px
+		height: 66px
+		background: #cc171e
+		&-bottom
+			top: 118px
+	&-side-text
+		font: 400 10px 'Roboto Condensed', sans-serif
+		color: #ffffff
+		text-transform: uppercase
+		position: absolute
+		right: -60px
+		top: 291px
+		transform: rotate(-90deg)
+		letter-spacing: 5px
+		width: 284px
+		span
+			padding-left: 39px
+	&-fk
+		font: 300px 'Merriweather Heavy', arial
+		position: absolute
+		top: 393px
+		left: 237px
+		color: #ffffff
+		&:before
+			content: 'thank f_ck for that'
+			font: 400 12px 'Roboto Condensed', sans-serif
+			transform: rotate(-90deg)
+			text-transform: uppercase
+			position: absolute
+			left: -265px
+			top: 318px
+			letter-spacing: 5px
+	&-p
+		position: absolute
+		left: 751px
+		top: 718px
+		width: 490px
+		font: 400 15px 'Roboto', sans-serif
+		color: #ffffff
+		span
+			font: 500 14px 'Roboto', sans-serif
+			&.h3
+				display: inline-block
+				font: 300 45px/50px 'Roboto Condensed', sans-serif
+				width: 100%
+				margin: 15px 0
