@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 			fonts: {
 				files: [{
 					expand: true,
-                    cwd: 'src/stylesheets/fonts/merriweather-heavy/fonts',
+                    cwd: 'src/fonts/merriweather-heavy/fonts',
                     src: ['*'],
                     dest: 'dist/fonts/'
 				}]
